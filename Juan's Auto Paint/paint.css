@@ -1,0 +1,69 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#Board{
+    height: 400px;
+    width: 1200px;
+    background-color:rgb(240,240,240);
+    margin: 0px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    font-size: 100px;
+    font-weight: bold;
+}
+#tabs{
+    background-color: rgb(232, 121, 101);
+    height: 60px;
+    width: 1200px;
+    margin: 0px auto;
+}
+#job{
+    margin: 50px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#defaultcar{
+    padding-left: 400px;
+    position: center;
+    display: inline-block;
+}
+#arrow{
+    display: inline-block;
+}
+#newcolor{
+    display: inline-block;
+}
+
+.paint{
+    display: inline-block;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 0px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+}
+.paint:focus{
+    outline: 0px;
+}
+.paint:active{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.submit{
+    color: ba(232,121,101);
+    background-color: rba(232,121,101);
+}
